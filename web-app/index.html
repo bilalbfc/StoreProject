@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stok Yönetimi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stok Yönetimi</h1>
+        <a href="create.html">
+            <button id="add-product">Ürün Ekle</button>
+        </a>
+    </div>
+
+    <div id="product-delete-message-container">
+    </div>
+
+    <div id="product-update-message-container">
+    </div>
+
+    <div id="search-filter-sort" class="row">
+        <div class="col-4" id="search-container">
+            <label for="search-input">Ürün Ara:</label>
+            <input type="text" id="search-input" placeholder="Ürün adı girin...">
+        </div>
+
+        <div class="col-4" id="filter-container">
+            <label for="category-filter">Kategoriye Göre Filtrele:</label>
+            <select id="category-filter">
+                <!-- Kategoriler dinamik olarak eklenecek -->
+            </select>
+        </div>
+
+        <div class="col-4" id="sort-container">
+            <label for="sort-price">Fiyata Göre Sırala:</label>
+            <select id="sort-price">
+                <option value="asc">Artan</option>
+                <option value="desc">Azalan</option>
+            </select>
+        </div>
+
+        <div class="col-4" id="search-button-container">
+            <button onclick="search()">Ara</button>
+        </div>
+    </div>
+
+    <div class="container" id="products-container">
+        <!-- Products will be dynamically added here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
