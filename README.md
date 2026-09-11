@@ -1,35 +1,33 @@
-🚀 Başlangıç
-Ön Koşullar
-.NET SDK (en son önerilen sürüm)
+## 🚀 Başlangıç
 
-Modern bir web tarayıcısı
+### Ön Koşullar
+* [.NET SDK](https://dotnet.microsoft.com/) (en son önerilen sürüm)
+* Modern bir web tarayıcısı
+* (`appsettings.json` içerisindeki tercihinize göre) MS SQL Server veya SQLite
 
-(appsettings.json içerisindeki tercihinize göre) MS SQL Server veya SQLite
+### Backend'i Çalıştırma (`StoreApi`)
+1. API proje dizinine gidin:
+   ```bash
+   cd FrontendIntegration/StoreApi
+   ```
+2. Bağımlılıkları yükleyin ve veritabanı migrasyonlarını güncelleyin:
+   ```bash
+   dotnet restore
+   dotnet ef database update
+   ```
+3. API projesini çalıştırın:
+   ```bash
+   dotnet run
+   ```
+   API yerel ortamda (genellikle `https://localhost:5xxx` veya `http://localhost:5xxx` üzerinde) ayağa kalkacaktır.
 
-Backend'i Çalıştırma (StoreApi)
-API proje dizinine gidin:
-
-Bash
-cd FrontendIntegration/StoreApi
-Bağımlılıkları yükleyin ve veritabanı migrasyonlarını güncelleyin:
-
-Bash
-dotnet restore
-dotnet ef database update
-API projesini çalıştırın:
-
-Bash
-dotnet run
-API yerel ortamda (genellikle https://localhost:5xxx veya http://localhost:5xxx üzerinde) ayağa kalkacaktır.
-
-Frontend'i Çalıştırma (web-app)
-web-app dizinine gidin:
-
-Bash
-cd web-app
-index.html dosyasını doğrudan tarayıcınızda açın veya VS Code Live Server gibi yerel bir geliştirme sunucusu kullanarak çalıştırın.
-
-Frontend kodunuzdaki (app.js) API temel adresinin (base URL) çalışan backend portunuzla eşleştiğinden emin olun.
+### Frontend'i Çalıştırma (`web-app`)
+1. `web-app` dizinine gidin:
+   ```bash
+   cd web-app
+   ```
+2. `index.html` dosyasını doğrudan tarayıcınızda açın veya VS Code Live Server gibi yerel bir geliştirme sunucusu kullanarak çalıştırın.
+3. Frontend kodunuzdaki (`app.js`) API temel adresinin (base URL) çalışan backend portunuzla eşleştiğinden emin olun.
 
 """
 ## 🛠️ Teknoloji Yığını
@@ -71,38 +69,6 @@ FrontendIntegration/
     └── styles.css                  # Arayüz stilleri
 ```
 
----
-
-## 🚀 Başlangıç
-
-### Ön Koşullar
-* [.NET SDK](https://dotnet.microsoft.com/) (en son önerilen sürüm)
-* Modern bir web tarayıcısı
-* (`appsettings.json` içerisindeki tercihinize göre) MS SQL Server veya SQLite
-
-### Backend'i Çalıştırma (`StoreApi`)
-1. API proje dizinine gidin:
-   ```bash
-   cd FrontendIntegration/StoreApi
-   ```
-2. Bağımlılıkları yükleyin ve veritabanı migrasyonlarını güncelleyin:
-   ```bash
-   dotnet restore
-   dotnet ef database update
-   ```
-3. API projesini çalıştırın:
-   ```bash
-   dotnet run
-   ```
-   API yerel ortamda (genellikle `https://localhost:5xxx` veya `http://localhost:5xxx` üzerinde) ayağa kalkacaktır.
-
-### Frontend'i Çalıştırma (`web-app`)
-1. `web-app` dizinine gidin:
-   ```bash
-   cd web-app
-   ```
-2. `index.html` dosyasını doğrudan tarayıcınızda açın veya VS Code Live Server gibi yerel bir geliştirme sunucusu kullanarak çalıştırın.
-3. Frontend kodunuzdaki (`app.js`) API temel adresinin (base URL) çalışan backend portunuzla eşleştiğinden emin olun.
 
 ---
 
