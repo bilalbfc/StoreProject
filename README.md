@@ -1,38 +1,3 @@
-
-Sohbetlerde arama yapın
-Resimler
-Kitaplık
-Yeni not defteri
-GitHub İçin README Dosyası Hazırlama
-Abdullah Öcalan Hapiste mi?
-2026 KYK Yurt Başvuru Tarihleri
-Visual Studio Dikdörtgen Seçim Modu Sorunu
-BuildHost Dosyaları ve Çözümü
-Yayımlanma Tarihi İngilizce Karşılıkları
-C# Otomatik Özellik Tanımlama Yöntemleri
-C#'ta `string` ve `String` Farkı
-Dizide Veri Kontrol Yöntemleri
-Visual Studio'da JavaScript Dosyası Çalıştırma
-JavaScript map() Metodu Kullanımı
-C# Otomatik Uygulanan Özellikler
-resimdeki çantayı kullanarak bu çantanın depolama alanını gösteen resim çekart
-gemini benim türkçe projem var ve resim yapmam lazım görseldeki çantayı kullanarak çantanın dayanıklı olduğuyla alakalı resim yap
-Su Geçirmez Çanta Yağmur Fotoğrafı
-C# .NET Konsol Uygulaması Oluşturma
-Python Projesini EXE'ye Dönüştürme
-Veritabanı Sütun Adı Hatası Çözümü
-Veri Tabanına Yapım Ekleme Sorguları
-Sunum Slaytları İçin Yardım Talebi
-çanta doğada duracak ve yağmur yağacak yazıları kendin ekleyebilirsin ama yazılar metal bir levhanın üzerinde metalik bir şekilde yazılı olsun reklam sloganları olabilir yaratıcı olmaya çalış sonra resim buğulu veya pikselli olmasın canlı ve net olsun
-reklam filmi projes için resim lazım sunumunu yapabileceğim 5 tane resim oluştur
-UML Diyagramı Hataları ve Düzeltmeleri
-Ağ Yapılandırması Sorunsuz Çalışıyor
-SQL Error: Column Not Found
-IP Planlaması ve VLSM Hataları
-SQL Server Bağlantı Hatası 08001 Çözümü
-Gemini ile sohbet
-Bu projeye readme yaz. github için
-
 🚀 Getting Started
 Prerequisites
 .NET SDK (latest recommended)
